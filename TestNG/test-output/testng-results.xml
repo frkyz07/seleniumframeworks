@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="10" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-28T14:05:07 TRT" name="Suite" finished-at="2022-05-28T14:05:07 TRT" duration-ms="150">
+    <groups>
+    </groups>
+    <test started-at="2022-05-28T14:05:07 TRT" name="Regression" finished-at="2022-05-28T14:05:07 TRT" duration-ms="150">
+      <class name="tests.FirstTest">
+        <test-method signature="Demo()[pri:0, instance:tests.FirstTest@48974e45]" started-at="2022-05-28T14:05:07 TRT" name="Demo" finished-at="2022-05-28T14:05:07 TRT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:tests.FirstTest@48974e45]" started-at="2022-05-28T14:05:07 TRT" name="SecondTest" finished-at="2022-05-28T14:05:07 TRT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- tests.FirstTest -->
+      <class name="tests.SecondTest">
+        <test-method is-config="true" signature="prerequrest()[pri:0, instance:tests.SecondTest@47faa49c]" started-at="2022-05-28T14:05:07 TRT" name="prerequrest" finished-at="2022-05-28T14:05:07 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequrest -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:tests.SecondTest@47faa49c]" started-at="2022-05-28T14:05:07 TRT" name="aftertest" finished-at="2022-05-28T14:05:07 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- tests.SecondTest -->
+      <class name="tests.ThirdTest">
+        <test-method is-config="true" signature="BfSuite()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="BfSuite" finished-at="2022-05-28T14:05:07 TRT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfSuite -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="beforeclass" finished-at="2022-05-28T14:05:07 TRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="beforeevery" finished-at="2022-05-28T14:05:07 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="APISignout()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="APISignout" finished-at="2022-05-28T14:05:07 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APISignout -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="afterevery" finished-at="2022-05-28T14:05:07 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="beforeevery" finished-at="2022-05-28T14:05:07 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="MobileSignin()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="MobileSignin" finished-at="2022-05-28T14:05:07 TRT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignin -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="afterevery" finished-at="2022-05-28T14:05:07 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="beforeevery" finished-at="2022-05-28T14:05:07 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="MobileSignout()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="MobileSignout" finished-at="2022-05-28T14:05:07 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignout -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="afterevery" finished-at="2022-05-28T14:05:07 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:tests.ThirdTest@6283d8b8]" started-at="2022-05-28T14:05:07 TRT" name="AfterSuite" finished-at="2022-05-28T14:05:07 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- tests.ThirdTest -->
+      <class name="tests.FourthTest">
+        <test-method signature="APILoginLoan()[pri:0, instance:tests.FourthTest@28f2a10f]" started-at="2022-05-28T14:05:07 TRT" name="APILoginLoan" finished-at="2022-05-28T14:05:07 TRT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginLoan -->
+        <test-method signature="WebLoginLoan()[pri:0, instance:tests.FourthTest@28f2a10f]" started-at="2022-05-28T14:05:07 TRT" name="WebLoginLoan" finished-at="2022-05-28T14:05:07 TRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginLoan -->
+      </class> <!-- tests.FourthTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
