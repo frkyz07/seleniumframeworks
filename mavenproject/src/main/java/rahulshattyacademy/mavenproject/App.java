@@ -1,4 +1,4 @@
-package qaclickacademy.mavenjava;
+package rahulshattyacademy.mavenproject;
 
 /**
  * Hello world!

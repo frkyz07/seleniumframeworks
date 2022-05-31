@@ -1,14 +1,17 @@
-package qaclickacademy.mavenjava;
+package qaclickacademy;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
+import static org.testng.Assert.assertTrue;
+
+import org.testng.TestNG;
+import org.testng.annotations.Test;
+
 import junit.framework.TestSuite;
 
 /**
  * Unit test for simple App.
  */
 public class AppTest 
-    extends TestCase
+    extends TestNG
 {
     /**
      * Create the test case
