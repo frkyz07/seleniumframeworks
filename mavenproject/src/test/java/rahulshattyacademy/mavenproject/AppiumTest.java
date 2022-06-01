@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class AppiumTest {
 
-	//@Test
+	@Test
 	public static void MobileTest() {
 		
 		System.out.print("MobileTest");
