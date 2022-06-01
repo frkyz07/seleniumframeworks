@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="81" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+      <class name="rahulshattyacademy.mavenproject.AppiumTest">
+        <test-method status="PASS" signature="MobileTest()[pri:0, instance:rahulshattyacademy.mavenproject.AppiumTest@c81cdd1]" name="MobileTest" duration-ms="1" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileTest -->
+        <test-method status="PASS" signature="NewAppiumTest()[pri:0, instance:rahulshattyacademy.mavenproject.AppiumTest@c81cdd1]" name="NewAppiumTest" duration-ms="2" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAppiumTest -->
+      </class> <!-- rahulshattyacademy.mavenproject.AppiumTest -->
+      <class name="rahulshattyacademy.mavenproject.APITest">
+        <test-method status="PASS" signature="APITest()[pri:0, instance:rahulshattyacademy.mavenproject.APITest@5891e32e]" name="APITest" duration-ms="13" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITest -->
+        <test-method status="PASS" signature="RestAPITest()[pri:0, instance:rahulshattyacademy.mavenproject.APITest@5891e32e]" name="RestAPITest" duration-ms="2" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPITest -->
+      </class> <!-- rahulshattyacademy.mavenproject.APITest -->
+      <class name="rahulshattyacademy.mavenproject.SeleniumTest">
+        <test-method status="PASS" signature="PlaywrightTest()[pri:0, instance:rahulshattyacademy.mavenproject.SeleniumTest@1fc2b765]" name="PlaywrightTest" duration-ms="1" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaywrightTest -->
+        <test-method status="PASS" signature="SeleniumTest()[pri:0, instance:rahulshattyacademy.mavenproject.SeleniumTest@1fc2b765]" name="SeleniumTest" duration-ms="2" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumTest -->
+      </class> <!-- rahulshattyacademy.mavenproject.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
