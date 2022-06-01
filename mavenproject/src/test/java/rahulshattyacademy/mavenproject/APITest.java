@@ -1,10 +1,20 @@
 package rahulshattyacademy.mavenproject;
 
+import org.testng.annotations.Test;
+
 public class APITest {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	@Test
+	public static void APITest() {
+		
+		System.out.print("APITest");
+	
+	}
+	@Test
+	public static void RestAPITest() {
+		
+		System.out.print("RestAPITest");
+	
 	}
 
 }

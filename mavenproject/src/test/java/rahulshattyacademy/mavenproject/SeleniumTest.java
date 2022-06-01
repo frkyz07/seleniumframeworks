@@ -1,10 +1,21 @@
 package rahulshattyacademy.mavenproject;
 
+import org.testng.annotations.Test;
+
 public class SeleniumTest {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	@Test
+	public static void SeleniumTest() {
+		
+		System.out.print("SeleniumTest");
+	
 	}
+	@Test
+	public static void PlaywrightTest() {
+		
+		System.out.print("PlaywrightTest");
+	
+	}
+
 
 }
