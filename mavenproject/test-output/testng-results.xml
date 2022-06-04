@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="81" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+  <suite started-at="2022-06-04T12:06:31 TRT" name="Default suite" finished-at="2022-06-04T12:06:42 TRT" duration-ms="11312">
     <groups>
     </groups>
-    <test name="Test" duration-ms="81" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
-      <class name="rahulshattyacademy.mavenproject.AppiumTest">
-        <test-method status="PASS" signature="MobileTest()[pri:0, instance:rahulshattyacademy.mavenproject.AppiumTest@c81cdd1]" name="MobileTest" duration-ms="1" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+    <test started-at="2022-06-04T12:06:31 TRT" name="Default test" finished-at="2022-06-04T12:06:42 TRT" duration-ms="11312">
+      <class name="rahulshattyacademy.mavenproject.ExtentReportDemo">
+        <test-method is-config="true" signature="config()[pri:0, instance:rahulshattyacademy.mavenproject.ExtentReportDemo@294425a7]" started-at="2022-06-04T12:06:31 TRT" name="config" finished-at="2022-06-04T12:06:31 TRT" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileTest -->
-        <test-method status="PASS" signature="NewAppiumTest()[pri:0, instance:rahulshattyacademy.mavenproject.AppiumTest@c81cdd1]" name="NewAppiumTest" duration-ms="2" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
+        </test-method> <!-- config -->
+        <test-method signature="initialDemo()[pri:0, instance:rahulshattyacademy.mavenproject.ExtentReportDemo@294425a7]" started-at="2022-06-04T12:06:31 TRT" name="initialDemo" finished-at="2022-06-04T12:06:42 TRT" duration-ms="10955" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NewAppiumTest -->
-      </class> <!-- rahulshattyacademy.mavenproject.AppiumTest -->
-      <class name="rahulshattyacademy.mavenproject.APITest">
-        <test-method status="PASS" signature="APITest()[pri:0, instance:rahulshattyacademy.mavenproject.APITest@5891e32e]" name="APITest" duration-ms="13" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APITest -->
-        <test-method status="PASS" signature="RestAPITest()[pri:0, instance:rahulshattyacademy.mavenproject.APITest@5891e32e]" name="RestAPITest" duration-ms="2" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RestAPITest -->
-      </class> <!-- rahulshattyacademy.mavenproject.APITest -->
-      <class name="rahulshattyacademy.mavenproject.SeleniumTest">
-        <test-method status="PASS" signature="PlaywrightTest()[pri:0, instance:rahulshattyacademy.mavenproject.SeleniumTest@1fc2b765]" name="PlaywrightTest" duration-ms="1" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PlaywrightTest -->
-        <test-method status="PASS" signature="SeleniumTest()[pri:0, instance:rahulshattyacademy.mavenproject.SeleniumTest@1fc2b765]" name="SeleniumTest" duration-ms="2" started-at="2022-06-01T22:36:47 EET" finished-at="2022-06-01T22:36:47 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SeleniumTest -->
-      </class> <!-- rahulshattyacademy.mavenproject.SeleniumTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- initialDemo -->
+      </class> <!-- rahulshattyacademy.mavenproject.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
