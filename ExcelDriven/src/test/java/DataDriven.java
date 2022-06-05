@@ -76,16 +76,6 @@ public class DataDriven {
 	} 	return array;
 		
 }
-	
-	public static void main(String[] args) throws IOException {
-	
-		
-		
-			
-		}
-		
-		
-
-	}
+}
 
 
