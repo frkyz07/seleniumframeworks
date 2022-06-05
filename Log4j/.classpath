@@ -6,6 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources/resources"/>
 	<classpathentry kind="lib" path="C:/Users/frkyz/Downloads/apache-log4j-2.17.2-bin/apache-log4j-2.17.2-bin/log4j-core-2.17.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/frkyz/Downloads/apache-log4j-2.17.2-bin/apache-log4j-2.17.2-bin/log4j-api-2.17.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
