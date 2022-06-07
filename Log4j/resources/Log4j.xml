@@ -5,21 +5,25 @@
 		</Property>
 	</Properties>
 
-	<Appenders>
-		<RollingFile name="File" fileName="${basePath}/prints.log"
-			filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
-			<PatternLayout
-				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
-			<SizeBasedTriggeringPolicy size="500" />
-		</RollingFile>
-		<Console name="Console" target="SYSTEM_OUT">
-			<PatternLayout
-				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
-		</Console>
-	</Appenders>
-	<Loggers>
-		<Root level="trace">
-			<AppenderRef ref="File" />
-		</Root>
-	</Loggers>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <layout class="ch.qos.logback.classic.PatternLayout">
+        <Pattern>
+            %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+        </Pattern>
+    </layout>
+</appender>
+
+<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>C:\Users\frkyz\git\selenium_examples\Log4j\logs\prints.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+        <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+    </layout>
+</appender>
+
+<logger name="alpha.Demo" level="trace"/>
+
+<root level="trace">
+    <appender-ref ref="STDOUT"/>
+    <appender-ref ref="FILE" />
+</root>
 </Configuration>
