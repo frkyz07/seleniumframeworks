@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-04T12:06:31 TRT" name="Default suite" finished-at="2022-06-04T12:06:42 TRT" duration-ms="11312">
+  <suite started-at="2022-06-11T22:55:21 TRT" name="Suite" finished-at="2022-06-11T22:55:21 TRT" duration-ms="65">
     <groups>
     </groups>
-    <test started-at="2022-06-04T12:06:31 TRT" name="Default test" finished-at="2022-06-04T12:06:42 TRT" duration-ms="11312">
-      <class name="rahulshattyacademy.mavenproject.ExtentReportDemo">
-        <test-method is-config="true" signature="config()[pri:0, instance:rahulshattyacademy.mavenproject.ExtentReportDemo@294425a7]" started-at="2022-06-04T12:06:31 TRT" name="config" finished-at="2022-06-04T12:06:31 TRT" duration-ms="316" status="PASS">
+    <test started-at="2022-06-11T22:55:21 TRT" name="Test" finished-at="2022-06-11T22:55:21 TRT" duration-ms="65">
+      <class name="rahulshattyacademy.mavenproject.APITest">
+        <test-method signature="APITest()[pri:0, instance:rahulshattyacademy.mavenproject.APITest@40ef3420]" started-at="2022-06-11T22:55:21 TRT" name="APITest" finished-at="2022-06-11T22:55:21 TRT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- config -->
-        <test-method signature="initialDemo()[pri:0, instance:rahulshattyacademy.mavenproject.ExtentReportDemo@294425a7]" started-at="2022-06-04T12:06:31 TRT" name="initialDemo" finished-at="2022-06-04T12:06:42 TRT" duration-ms="10955" status="PASS">
+        </test-method> <!-- APITest -->
+        <test-method signature="RestAPITest()[pri:0, instance:rahulshattyacademy.mavenproject.APITest@40ef3420]" started-at="2022-06-11T22:55:21 TRT" name="RestAPITest" finished-at="2022-06-11T22:55:21 TRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialDemo -->
-      </class> <!-- rahulshattyacademy.mavenproject.ExtentReportDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- RestAPITest -->
+      </class> <!-- rahulshattyacademy.mavenproject.APITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

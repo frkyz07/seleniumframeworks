@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-07T17:03:39 TRT" name="Default suite" finished-at="2022-06-07T17:04:11 TRT" duration-ms="31699">
+  <suite started-at="2022-06-08T16:45:49 TRT" name="Default suite" finished-at="2022-06-08T16:46:30 TRT" duration-ms="40416">
     <groups>
     </groups>
-    <test started-at="2022-06-07T17:03:39 TRT" name="Default test" finished-at="2022-06-07T17:04:11 TRT" duration-ms="31699">
+    <test started-at="2022-06-08T16:45:49 TRT" name="Default test" finished-at="2022-06-08T16:46:30 TRT" duration-ms="40416">
       <class name="TestCases.loginApp">
-        <test-method signature="Login()[pri:0, instance:TestCases.loginApp@59d016c9]" started-at="2022-06-07T17:03:39 TRT" name="Login" finished-at="2022-06-07T17:04:11 TRT" duration-ms="31622" status="FAIL">
+        <test-method signature="Login()[pri:0, instance:TestCases.loginApp@59d016c9]" started-at="2022-06-08T16:45:49 TRT" name="Login" finished-at="2022-06-08T16:46:30 TRT" duration-ms="40289" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because the return value of "ObjectRepo.RediffHomepage.Search()" is null]]>
