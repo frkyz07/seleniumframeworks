@@ -18,7 +18,7 @@ public class NetworkSpeed {
 		devTools.createSession();
 		
 		devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
-		devTools.send(Network.emulateNetworkConditions(true, 3000, 20000, 100000, Optional.of(ConnectionType.ETHERNET)));
+		devTools.send(Network.emulateNetworkConditions(false, 3000, 20000, 100000, Optional.of(ConnectionType.ETHERNET)));
 		
 		devTools.addListener(Network.loadingFailed(), loadingFailed->{
 			
